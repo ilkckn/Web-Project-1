@@ -136,9 +136,9 @@ body {
 }
 
 .menu-li .drop-down {
-    /* width: 100%; */
     display: flex;
-    /* background-color: wheat; */
+    flex-direction: row;
+    gap: 1rem;
     list-style: none;
     position: absolute;
     top: 8rem;
@@ -557,7 +557,7 @@ body {
     /* background-color: rgb(232, 232, 232); */
     border-radius: 3rem 0 3rem 0;
     margin-bottom: 2rem;
-    transition: .7s;
+    transition: .6s;
     cursor: pointer;
 }
 
@@ -880,7 +880,7 @@ body {
     }
 
     .new-arrivals img:hover {
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 }
 
