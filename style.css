@@ -3407,6 +3407,7 @@ img {
         font-weight: 400;
         text-decoration: none;
         color: white;
+        transition: .3s;
     }
 
     .infos a:hover {
